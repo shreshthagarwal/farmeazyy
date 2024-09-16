@@ -1,7 +1,10 @@
 import React from 'react';
 import './BuyFromFarmers.css'; // Import the CSS file
 import buyfromfarmer from "../assets/buyfromfarmer.png"
-import potato from "../assets/potato.png"
+import wheat from "../assets/wheat.png"
+import bajra from "../assets/bajra.png"
+import rice from "../assets/rice.png"
+
 
 const BuyFromFarmers = () => {
   return (
@@ -10,60 +13,60 @@ const BuyFromFarmers = () => {
       <div className="buy-from-farmers-cards-container">
         <div className="buy-from-farmers-card">
           <img
-            src={potato}
+            src={wheat}
             alt="Fresh Organic Apples"
             className="buy-from-farmers-card-image"
           />
           <p className="buy-from-farmers-card-text">
-          <h3>Potato</h3>
+          <h3>Wheat</h3>
           <h3>Price: ₹10/kg</h3>
           <h3>Quantity: 400kg</h3>
           </p>
         </div>
         <div className="buy-from-farmers-card">
           <img
-            src={potato}
+            src={bajra}
             alt="Fresh Organic Apples"
             className="buy-from-farmers-card-image"
           />
           <p className="buy-from-farmers-card-text">
-          <h3>Potato</h3>
+          <h3>Bajra</h3>
           <h3>Price: ₹10/kg</h3>
           <h3>Quantity: 400kg</h3>
           </p>
         </div>
         <div className="buy-from-farmers-card">
           <img
-            src={potato}
+            src={rice}
             alt="Fresh Organic Apples"
             className="buy-from-farmers-card-image"
           />
           <p className="buy-from-farmers-card-text">
-          <h3>Potato</h3>
+          <h3>Rice</h3>
           <h3>Price: ₹10/kg</h3>
           <h3>Quantity: 400kg</h3>
           </p>
         </div>
         <div className="buy-from-farmers-card">
           <img
-            src={potato}
+            src={wheat}
             alt="Fresh Organic Apples"
             className="buy-from-farmers-card-image"
           />
           <p className="buy-from-farmers-card-text">
-          <h3>Potato</h3>
+          <h3>Wheat</h3>
           <h3>Price: ₹10/kg</h3>
           <h3>Quantity: 400kg</h3>
           </p>
         </div>
         <div className="buy-from-farmers-card">
           <img
-            src={potato}
+            src={bajra}
             alt="Fresh Organic Apples"
             className="buy-from-farmers-card-image"
           />
           <p className="buy-from-farmers-card-text">
-          <h3>Potato</h3>
+          <h3>Bajra</h3>
           <h3>Price: ₹10/kg</h3>
           <h3>Quantity: 400kg</h3>
           </p>

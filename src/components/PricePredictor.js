@@ -19,29 +19,8 @@ function PricePredictor() {
         <div className="pricepredictor-textbox">
           <div className="pricepredictor-content">
             <h2>Price Predictor</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              non purus ac eros vulputate suscipit non in libero.
-            </p>
-            <p>
-              In id justo euismod, pharetra felis at, pulvinar velit. In eget nisi
-              lorem. Nam fringilla dui at elit sodales, a cursus mauris pharetra.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              non purus ac eros vulputate suscipit non in libero.
-            </p>
-            <p>
-              In id justo euismod, pharetra felis at, pulvinar velit. In eget nisi
-              lorem. Nam fringilla dui at elit sodales, a cursus mauris pharetra.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              non purus ac eros vulputate suscipit non in libero.
-            </p>
-            <p>
-              In id justo euismod, pharetra felis at, pulvinar velit. In eget nisi
-              lorem. Nam fringilla dui at elit sodales, a cursus mauris pharetra.
+            <p>At FarmEazyy, our advanced Price Prediction Model harnesses machine learning to provide accurate forecasts of crop prices.</p> <p> By analyzing historical data, weather conditions, and market trends, our model delivers real-time price predictions that enable farmers to make well-informed decisions. 
+              </p> <p>This insight helps farmers optimize planting and harvesting schedules, maximize their profits, and manage risks associated with price fluctuations.</p><p> With our model, farmers gain valuable knowledge of future market conditions, allowing them to strategically sell their produce and efficiently allocate resources, ensuring greater financial stability and growth.
             </p>
             {/* Add more content as needed */}
           </div>
