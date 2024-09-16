@@ -1,0 +1,44 @@
+/* FarmerListed.css */
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+
+.listed-items {
+    padding: 20px;
+    background-color: #f8f8f8; /* Ensure a contrasting background color */
+}
+
+.listed-h1 {
+    font-family: "Stick No Bills", system-ui;
+    color: #32a071;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.items-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px; /* Add padding to give some space around the cards */
+}
+
+.card {
+    background-color: #32a071 !important; /* Use !important for debugging */
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 200px; /* Ensure the card has a proper width */
+    text-align: center;
+    flex: 0 0 auto; /* Prevent cards from stretching */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for better visibility */
+    color: #fff  /* Text color for better contrast */
+}
+
+.card img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h3 {
+  line-height: 15px;
+}

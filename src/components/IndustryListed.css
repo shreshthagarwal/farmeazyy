@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+
+.industry-listed-main-container {
+  padding: 20px;
+  background-color: #19221a; /* Background color of the main container */
+}
+
+.industry-listed-inner-container {
+  height: 70vh;
+  width: 80%;
+  background-color: #1e412f; /* Background color of the inner container */
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.industry-listed-heading {
+  color: white; /* New heading color */
+  font-family: "Stick No Bills", system-ui;
+  font-size: 100px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.industry-listed-items-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.industry-listed-card {
+  background-color: #32a071; /* New card background color */
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 200px;
+  text-align: center;
+  flex: 0 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Text color for better contrast */
+}
+
+.industry-listed-card-image {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.industry-listed-card-title,
+.industry-listed-card-price,
+.industry-listed-card-quantity {
+  line-height: 15px;
+}
+
+.industry-listed-items-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth; /* Optional: smooth scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+  }
+  
+  /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+  .industry-listed-items-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for Firefox and other browsers */
+  .industry-listed-items-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }

@@ -1,0 +1,67 @@
+.market-buy-container {
+    width: 100%;
+    height: 35vh; /* Takes up the remaining 1/4 of the screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 0; /* Remove padding to avoid overflow */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+  
+.market-buy-heading {
+    font-family: 'Stick No Bills', system-ui;
+    color: #32a071;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+  
+.market-buy-cards {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 20px;
+    width: 100%; /* Ensure it takes full width */
+    padding: 0 10px; /* Reduce padding to avoid overflow */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.market-buy-card {
+    background-color: #fff;
+    border-radius: 8px; /* Change to a smaller radius for a rectangular card */
+    width: 200px; /* Increase the width of the card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Add padding for spacing inside the card */
+    flex-shrink: 0; /* Prevent shrinking to avoid overlap */
+}
+
+.market-buy-card-image {
+    width: 120px; /* Increase the image size to fit the new card width */
+    height: 120px;
+    border-radius: 50%; /* Keep the image circular */
+    object-fit: cover;
+    margin-bottom: 10px; /* Add space between the image and the text */
+}
+
+.market-buy-card-content {
+    text-align: center;
+}
+
+.market-buy-card-title {
+    font-size: 16px;
+    color: #184f27;
+}
+
+/* Hide the scrollbar for Webkit browsers (Chrome, Safari) */
+.market-buy-cards::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide the scrollbar for other browsers */
+.market-buy-cards {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}

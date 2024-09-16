@@ -1,0 +1,106 @@
+/* FarmerProductDetails.css */
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stick+No+Bills:wght@200..800&display=swap');
+
+.product-details {
+    display: flex;
+    padding: 40px;
+    background-color: #32a071;
+    color: white;
+    height: 100vh;
+  }
+  
+  .details-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .details-left h1 {
+    font-family: "Stick No Bills", system-ui;
+    font-size: 6rem;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  
+  .details-image {
+    width: 550px; /* Adjust the size as needed */
+    height: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  .details-right {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .details-right form {
+    width: 800px;
+    height: 840px;
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-row {
+    padding: 5px 0px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column; /* Stack labels above inputs */
+  }
+  
+  .input-group label {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black; /* Set label text color to black */
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    margin: 0px 10px;
+    background-color: #cce7db;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    width: 260px;
+    font-size: 22px;
+  }
+  
+  .get-price {
+    margin-top: 30px;
+    height: 55px;
+    width: 142px;
+    background-color: #32a071;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    align-self: flex-start; /* Align the button to the start of the row */
+    font-size: 22px;
+  }
+  
+  .list-btn {
+    height: 55px;
+    background-color: #32a071;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 350px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 22px;
+
+  }
+  

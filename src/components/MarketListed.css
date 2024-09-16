@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+
+.market-listed-items {
+    padding: 20px;
+    background-color: #32a071; /* Background color of the main container */
+}
+
+.market-listed-h1 {
+    font-family: "Stick No Bills", system-ui;
+    color: white;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.market-items-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px; /* Add padding to give some space around the cards */
+}
+
+.market-card {
+    background-color: white; /* Card background color */
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 200px; /* Ensure the card has a proper width */
+    text-align: center;
+    flex: 0 0 auto; /* Prevent cards from stretching */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for better visibility */
+    color: black; /* Text color for better contrast */
+}
+
+.market-card img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.market-card h3 {
+    line-height: 15px;
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.market-items-container::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for Firefox and other browsers */
+.market-items-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+
+.buy-from-farmers-container {
+    height: 70vh;
+    width: 80%;
+    background-color: #1e412f;
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 100px;
+
+  }
+  
+  .buy-from-farmers-heading {
+    padding: 40px;
+    font-family: "Stick No Bills", system-ui;
+    margin-bottom: 10px;
+  }
+
+  .span-left{
+    color: #32a071;
+    font-size: 150px;
+
+  }
+  .span-right{
+    color: white;
+    font-size: 100px;
+
+  }
+  
+  .buy-from-farmers-cards-container {
+    border-radius: 24px;
+    margin: 40px 10px;
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px 0;
+    white-space: nowrap;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    scroll-behavior: smooth; /* Optional: smooth scrolling */
+    padding-right: 15px; /* Add padding to avoid hidden scrollbar */
+  }
+  
+  /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+  .buy-from-farmers-cards-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .buy-from-farmers-card {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    flex-shrink: 0;
+  }
+  
+  .buy-from-farmers-card-image {
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .buy-from-farmers-card-text {
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .buy-from-farmers-decorative-image {
+    position: absolute;
+    top: -25px; /* Adjust as needed to move image up */
+    right: -25px; /* Adjust as needed to move image to the right */
+    width: 500px; /* Adjust width as needed */
+    height: 370px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  

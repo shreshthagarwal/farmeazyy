@@ -1,0 +1,32 @@
+.oval-icons-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -160px; /* Adjust based on spacing needed */
+  margin-bottom: 20px; /* Adjust based on spacing needed */
+}
+
+.oval-background {
+  width: 100%;
+  max-width: 1100px; /* Adjust to make it fit properly */
+}
+
+.icons {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 50%; /* Adjust to set spacing between icons */
+  height: 100%;
+  align-items: center;
+}
+
+.icon12 {
+  width: 200px; /* Adjust size of icons */
+  height: 200px;
+  cursor: pointer;
+}
+
+.icon12:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+
+.industry-sell-container {
+  height: 70vh;
+  width: 80%;
+  background-color: #1e412f;
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.industry-sell-image {
+  width: 550px; /* Adjust width as needed */
+  height: 350px; /* Adjust height as needed */
+  object-fit: cover;
+  position: absolute;
+  top: 0px; /* Adjust as needed to move image down */
+  left: 20px; /* Adjust as needed to move image right */
+  z-index: 0; /* Ensure image is behind other content */
+}
+
+.industry-sell-heading {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  color: white;
+  font-family: "Stick No Bills", system-ui;
+  font-size: 150px;
+  z-index: 1; /* Ensure heading is above the image */
+}
+
+.industry-sell-content {
+  position: absolute;
+  bottom: 20px; /* Position form at the bottom of the container */
+  left: 0;
+  right: 0;
+  z-index: 1; /* Ensure content is above the image */
+}
+
+.industry-sell-form {
+    width: 850px;
+  background: #235940;
+  padding: 20px;
+  border-radius: 8px;
+  margin: -130px auto 50px;
+}
+
+.industry-sell-form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.industry-sell-form-group {
+  flex: 1;
+  margin-right: 10px;
+  margin: 30px;
+}
+
+.industry-sell-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: black;
+}
+
+.industry-sell-form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.industry-sell-button {
+  background-color: #32a071;
+  margin: auto;
+  width: 700px;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.industry-sell-button:hover {
+  background-color: #2b8a5e;
+}

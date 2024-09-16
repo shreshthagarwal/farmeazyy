@@ -1,0 +1,132 @@
+/* Landing.css */
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+
+.landing {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.language-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.language-toggle .toggle-label {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  margin-right: 8px; /* Reduce space between the slider and the text */
+}
+
+.language-toggle input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.language-toggle .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.language-toggle input:checked + .slider {
+  background-color: #32a852;
+}
+
+.language-toggle .slider::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.language-toggle input:checked + .slider::before {
+  transform: translateX(26px);
+}
+
+.language-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 4px; /* Adjust spacing between text and divider */
+}
+
+.divider {
+  margin: 0 4px; /* Adjust spacing around the divider */
+  color: #999;
+}
+
+
+
+.heading {
+  font-family: "Stick No Bills", system-ui;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-weight: bold;
+}
+.span1{
+  color: #32a071;
+  font-size: 200px;
+}
+.span2{
+  color: white;
+  font-size: 200px;
+}
+.span3{
+  color: white;
+  font-size: 5rem;;
+}

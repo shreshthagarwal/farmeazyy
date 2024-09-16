@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+
+.market-landing {
+  position: relative;
+  height: 65vh; /* Takes 3/4 of the screen */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.language-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.language-toggle input[type="checkbox"] {
+  display: none;
+}
+
+.language-toggle .slider {
+  width: 40px;
+  height: 20px;
+  background-color: #32a071;
+  position: relative;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.language-toggle input:checked + .slider {
+  background-color: #32a852;
+}
+
+.language-toggle .slider::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s ease;
+}
+
+.language-toggle input:checked + .slider::before {
+  transform: translateX(20px);
+}
+
+.heading {
+  font-family: "Stick No Bills", system-ui;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-weight: bold;
+}
+
+.span1{
+    color: #32a071;
+    font-size: 200px;
+  }
+  .span2{
+    color: white;
+    font-size: 200px;
+  }
+  .span3{
+    color: white;
+    font-size: 5rem;;
+  }
+  
